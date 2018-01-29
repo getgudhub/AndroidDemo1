@@ -52,4 +52,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }//
 
-}
+}          // Toast comments could be removed for clean project structure
