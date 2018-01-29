@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Recipies</string>
+    <string name="login_invalid_username">Invalid Username</string>
+    <string name="login_invalid_password">Invalid Password</string>
+    <string name="login_invalid_passwordR">Passwords do not match</string>
+    <string name="login_invalid_email">Email is incorrect</string>
+</resources>

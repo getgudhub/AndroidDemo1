@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:textSize="12sp"
+        android:fontFamily="serif"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:text="Prisijungimo vardas"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:hint="Prisijungimo vardas"
+        android:id="@+id/usernameReg"/>
+
+    <Space android:layout_height="25dp"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:text="Slaptazodis"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:hint="Slaptazodis"
+        android:inputType="textPassword"
+        android:id="@+id/passwordReg"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:hint="Pakartoti slaptazodi"
+        android:inputType="textPassword"
+        android:id="@+id/passwordRegR"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pastas"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:hint="Pastas"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"/>
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <Button
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:text="Registruotis"
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonSubmit"/>
+
+</LinearLayout>
